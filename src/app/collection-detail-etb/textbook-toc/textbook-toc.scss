@@ -4,7 +4,7 @@
   .scroll-content {
     padding-bottom: 20% !important;
   }
-  .sb-topic-text{
+  .sb-topic-text {
     width: 90.28%;
     color: $blue;
     font-size: $font-size-base;
@@ -17,10 +17,10 @@
   }
   .sb-accordian-card {
     margin: 0 !important;
-    box-shadow: none;
+    // //box-shadow none;
     border-bottom: 1px solid map-get($colors, medium_gray);
   }
-  .sb-play-selected{
+  .sb-play-selected {
     font-weight: normal;
     color: $blue;
     ion-icon {

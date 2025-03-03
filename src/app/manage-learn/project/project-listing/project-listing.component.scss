@@ -6,53 +6,54 @@
 }
 
 .view-more {
-   --background: #572E91 !important;
-   --border-color: #572E91!important;
-   --color: white!important;
-   height: 2.25rem;
-   font-size: 0.875rem;
+  --background: #572e91 !important;
+  --border-color: #572e91 !important;
+  --color: white !important;
+  height: 2.25rem;
+  font-size: 0.875rem;
 }
-ion-searchbar ::ng-deep .searchbar-input{
+ion-searchbar ::ng-deep .searchbar-input {
   border-radius: 10px;
-  border:1px solid #572E91;
+  border: 1px solid #572e91;
 }
 
-sb-library-filters ::ng-deep{
-  .sb-pills-container{
+sb-library-filters ::ng-deep {
+  .sb-pills-container {
     background: transparent !important;
   }
-  .sb-medium-pills-container, .sb-grade-pills-container {
-    .pill{
-      border-color:  #572E91!important;
-      color: #572E91 !important;
-      box-shadow: var(--button-style-shadow) !important;
+  .sb-medium-pills-container,
+  .sb-grade-pills-container {
+    .pill {
+      border-color: #572e91 !important;
+      color: #572e91 !important;
+      //box-shadow var(--button-style-shadow) !important;
       margin-right: 1rem !important;
     }
-    .pill.active{
-      color:white !important;
-      background-color: #572E91 !important;
-      border-color: #572E91 !important;
+    .pill.active {
+      color: white !important;
+      background-color: #572e91 !important;
+      border-color: #572e91 !important;
     }
   }
 
   .sb-medium-pills-container {
-    .pill{
+    .pill {
       border-radius: 4px !important;
     }
   }
 }
 .create_header ::ng-deep .title.w-90 {
-  color:black;
+  color: black;
 }
 :host ::ng-deep {
-      .pill{
-       text-transform: none !important;
-}
+  .pill {
+    text-transform: none !important;
+  }
 }
 
 .container {
-//   width: 100px;
-//   background-color: green;
+  //   width: 100px;
+  //   background-color: green;
   overflow: hidden;
   white-space: nowrap;
   ::-webkit-scrollbar {
@@ -63,12 +64,12 @@ sb-library-filters ::ng-deep{
     margin: 20px 0px;
   }
 }
-.mg-popup-btn-icon{
+.mg-popup-btn-icon {
   font-size: 1.625rem;
   margin: auto;
   color: $primary-800;
 }
-.header{
+.header {
   margin-left: 13px;
 }
 .selected-filter {

@@ -80,7 +80,7 @@
 
 .selected-lang {
   .language-selection {
-    background-color:#572E91!important;
+    background-color: #572e91 !important;
   }
   .label-text {
     color: var(--app-white) !important;
@@ -89,7 +89,7 @@
 
 .language-card label {
   position: relative;
-  box-shadow: 0 20px 40px -10px map-get($colors, light_silver);
+  //box-shadow 0 20px 40px -10px map-get($colors, light_silver);
   background-color: map-get($colors, white);
   display: inline-block;
   width: 100%;

@@ -1,9 +1,9 @@
 //Cross browser CSS3 mixins
 
 @mixin box-shadow($left, $top, $radius, $color) {
-	box-shadow: $left $top $radius $color;
-	-webkit-box-shadow: $left $top $radius $color;
-	-moz-box-shadow: $left $top $radius $color;
+	//box-shadow $left $top $radius $color;
+	// -webkit-//box-shadow $left $top $radius $color;
+	// -moz-//box-shadow $left $top $radius $color;
 }
 
 @mixin transition($property, $duration, $easing: linear) {

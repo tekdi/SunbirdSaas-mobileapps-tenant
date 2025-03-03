@@ -10,7 +10,7 @@
   margin: 0;
   width: 100%;
   height: auto;
-  box-shadow: unset;
+  //box-shadow unset;
   position: fixed;
 
   @include ltr() {
@@ -35,7 +35,7 @@
   margin: 0;
   width: 100%;
   height: 100%;
-  box-shadow: unset;
+  //box-shadow unset;
   position: fixed;
   @include ltr() {
     left: 0 !important;

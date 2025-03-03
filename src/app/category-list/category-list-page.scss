@@ -4,7 +4,7 @@
   background-color: map-get($colors, white_f2);
 }
 
-.sticky-header-pills{
+.sticky-header-pills {
   position: sticky;
   top: 1rem;
   z-index: 9;
@@ -12,16 +12,16 @@
 }
 
 .ios .sticky-header-pills {
-  top: 0
+  top: 0;
 }
 
-.filter-items{
+.filter-items {
   height: 70%;
-  ion-select{
+  ion-select {
     border: none !important;
   }
   border-radius: 2rem;
-  .hide-label{
+  .hide-label {
     display: none;
   }
 }
@@ -33,11 +33,11 @@
 .filter-button {
   width: 100%;
   height: 70%;
-  box-shadow: 0 0 50px 0 rgba(0,0,0,0.1) !important;
+  // //box-shadow 0 0 50px 0 rgba(0,0,0,0.1) !important;
   background-color: var(--app-primary-header-light);
 }
 
-.no-result-found{
+.no-result-found {
   text-align: center;
   font-size: 1rem;
   font-weight: bold;

@@ -459,7 +459,7 @@ export class DistrictMapping1Page implements OnDestroy {
       //     "type" : this.formGroup.value['persona']
       //   });
       // }
-console.log("this.selectedRole")
+console.log("this.selectedRole",this.selectedRole)
   if(this.selectedRole == 'administrator'){
     this.selectedSubRole.forEach(subRole => {
       userTypes.push({

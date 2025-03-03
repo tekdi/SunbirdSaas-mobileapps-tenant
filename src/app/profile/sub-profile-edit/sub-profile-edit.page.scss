@@ -2,7 +2,7 @@
 :host {
   .label-font {
     color: map-get($colors, primary_black) !important;
-    font-family: "Noto Sans", sans-serif !important;
+    // font-family: "Noto Sans", sans-serif !important;
     font-size: 1.375rem !important;
     font-weight: normal;
   }
@@ -35,7 +35,7 @@
     padding-left: 8px;
     padding-right: 16px !important;
     font-size: $font-size-base;
-    font-family: "Noto Sans Bold", sans-serif;
+    // font-family: "Noto Sans Bold", sans-serif;
     .select-icon {
       .select-icon-inner {
         border: solid blue;
@@ -103,7 +103,7 @@
 
   ion-label {
     color: map-get($colors, primary_black);
-    font-family: "Noto Sans", sans-serif;
+    // font-family: "Noto Sans", sans-serif;
     font-size: $font-size-base;
     letter-spacing: 0;
     line-height: 1.188rem;
@@ -120,7 +120,7 @@
 
 .sp-input-title{
   color: map-get($colors, primary_black);
-  font-family: "Noto Sans", sans-serif;
+  // font-family: "Noto Sans", sans-serif;
   font-size: $font-size-base;
   letter-spacing: 0;
   line-height: 1.188rem;
@@ -155,7 +155,7 @@ ion-footer{
   ion-button{
     --background: #{$blue} !important;
     height: 2.5rem !important;
-    font-family: "Noto Sans", sans-serif;
+    // font-family: "Noto Sans", sans-serif;
     font-size: 1rem;
   }
 }

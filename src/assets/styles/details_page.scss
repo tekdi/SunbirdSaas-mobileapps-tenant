@@ -71,13 +71,13 @@ ul {
 }
 
 .content-size {
-    @extend .NotoSans;
+    // @extend .NotoSans;
     color: grey;
     font-size: 1.3rem;
 }
 
 .content-structure {
-    @extend .NotoSans;
+    // @extend .NotoSans;
     color: #808080;
     font-size: 1.2rem;
 }
@@ -88,7 +88,7 @@ button {
 
 .text-gray-color {
     color: gray;
-    @extend .NotoSans;
+    // @extend .NotoSans;
 }
 
 // .scroll-content { 

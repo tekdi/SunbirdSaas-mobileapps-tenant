@@ -63,7 +63,7 @@
     .batch-name {
         margin-top: 0px; 
         font-size: 0.75rem;
-        @extend .NotoSans-semi-bold;
+        // @extend .NotoSans-semi-bold;
     }
     .selected-filter {
         width: 88%;
@@ -95,14 +95,14 @@
     .text-gray-color {
         color: gray;
         display: inline-block;
-        @extend .NotoSans;
+        // @extend .NotoSans;
     }
 
     .header-md::after { 
         background-image: none; 
     }
     .batch-font{
-        @extend .NotoSans-bold;
+        // @extend .NotoSans-bold;
         padding: 15px 0 12px 7px;
         font-size: 1rem;
     }

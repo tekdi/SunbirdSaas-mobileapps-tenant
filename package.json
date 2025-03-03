@@ -183,6 +183,7 @@
     "babel-jest": "^25.4.0",
     "babel-polyfill": "^6.26.0",
     "code-push": "^3.0.1",
+    "cordova-nn-filepath": "git+https://github.com/vishwanath1004/cordova-plugin-filepath.git",
     "cordova-plugin-android-downloadmanager": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-downloadmanager.git",
     "cordova-plugin-app-version": "^0.1.12",
     "cordova-plugin-awesome-shared-preferences": "git+https://github.com/adriano-di-giovanni/cordova-plugin-shared-preferences.git",
@@ -191,11 +192,11 @@
     "cordova-plugin-chooser": "github:shikshalokam/cordova-plugin-chooser",
     "cordova-plugin-code-push": "git+https://github.com/swayangjit/cordova-plugin-code-push.git",
     "cordova-plugin-console": "^1.1.0",
-    "cordova-plugin-document-viewer": "github:swayangjit/cordova-plugin-document-viewer",
+    "cordova-plugin-document-viewer": "github:siddhishinde0723/cordova-plugin-document-viewer",
     "cordova-plugin-fcm-with-dependecy-updated": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-fcm.git#release-5.0.2",
     "cordova-plugin-file-transfer": "github:vishwanath1004/cordova-plugin-file-transfer",
     "cordova-plugin-filepath": "github:vishwanath1004/cordova-plugin-filepath",
-    "cordova-plugin-inappupdatemanager": "github:siddhishinde0723/cordova-plugin-inappupdatemanager",
+    "cordova-plugin-inappupdatemanager": "git+https://github.com/subranil/cordova-plugin-inappupdatemanager.git#release-3.7.0",
     "cordova-plugin-local-notification": "git+https://github.com/fquirin/cordova-plugin-local-notifications.git",
     "cordova-plugin-openrap": "git+https://github.com/project-sunbird/cordova-plugin-openrap.git",
     "cordova-plugin-proguard": "git+https://github.com/greybax/cordova-plugin-proguard.git",
@@ -210,7 +211,7 @@
     "sb-cordova-plugin-customtabs": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-customtabs.git#release-5.0.2",
     "sb-cordova-plugin-db": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-db.git#release-4.6.0",
     "sb-cordova-plugin-sync": "git+https://github.com/project-sunbird/sb-cordova-plugin-sync.git",
-    "sb-cordova-plugin-utility": "github:siddhishinde0723/sb-cordova-plugin-utility",
+    "sb-cordova-plugin-utility": "git+https://github.com/Sunbird-Ed/sb-cordova-plugin-utility.git#release-4.1.0",
     "sonarqube-scanner": "^2.5.0",
     "tiny-glob": "^0.2.9",
     "ts-node": "^8.4.1",
@@ -260,6 +261,7 @@
       },
       "cordova-plugin-openrap": {},
       "cordova-plugin-webview-checker": {},
+      "sb-cordova-plugin-utility": {},
       "cordova-plugin-printer": {},
       "cordova-plugin-fcm-with-dependecy-updated": {
         "FCM_CORE_VERSION": "16.0.9",
@@ -279,21 +281,20 @@
       "cordova-sqlite-storage": {},
       "cordova-plugin-telerik-imagepicker": {},
       "cordova-plugin-filechooser": {},
+      "cordova-plugin-inappupdatemanager": {},
       "cordova-plugin-googleplus": {
         "PLAY_SERVICES_VERSION": "15.0.1"
       },
       "uk.co.workingedge.phonegap.plugin.istablet": {},
       "cordova-plugin-console": {},
       "cordova-plugin-sunbirdsplash": {},
-      "cordova-plugin-file-transfer": {},
-      "cordova-plugin-filepath": {},
-      "cordova-plugin-chooser": {},
       "cordova-plugin-camera": {
         "ANDROIDX_CORE_VERSION": "1.6.+"
       },
-      "cordova-plugin-document-viewer": {},
-      "sb-cordova-plugin-utility": {},
-      "cordova-plugin-inappupdatemanager": {}
+      "cordova-plugin-chooser": {},
+      "cordova-plugin-filepath": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-document-viewer": {}
     },
     "platforms": [
       "ios"

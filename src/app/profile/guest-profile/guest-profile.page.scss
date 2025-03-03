@@ -3,17 +3,17 @@
 @import "src/assets/styles/fonts";
 
 :host {
-  .profile-info{
+  .profile-info {
     background-color: transparent;
     border-radius: 0 0 0 1rem;
-    .profile-icon{
+    .profile-icon {
       width: 5.625rem;
       height: 5.625rem;
       border-radius: 3.75rem;
       background-color: map-get($colors, white);
-      box-shadow: 0 5px 2px 0 rgba(0,0,0,0.1);
+      //box-shadow 0 5px 2px 0 rgba(0,0,0,0.1);
       margin: auto;
-      img{
+      img {
         position: relative;
         top: 0.313rem;
         width: 4.688rem;

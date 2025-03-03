@@ -227,9 +227,9 @@
 .tabs-md .tabbar,
 .tabs-ios .tabbar {
   background: none;
-  -webkit-box-shadow: 0px 0px 4px 1px #666;
-  box-shadow: 0px 0px 4px 1px #666;
-  box-shadow: none;
+  // -webkit-//box-shadow 0px 0px 4px 1px #666;
+  //box-shadow 0px 0px 4px 1px #666;
+  //box-shadow none;
 }
 .tabs-md .tab-button:nth-child(3) .tab-button-icon,
 .tabs-ios .tab-button:nth-child(3) .tab-button-icon {

@@ -43,7 +43,7 @@
   flex-grow: 0;
   flex-shrink: 0;
   color: #222222;
-  font-family: "Noto Sans", sans-serif;
+  // font-family: "Noto Sans", sans-serif;
   font-size: 1.25rem;
   letter-spacing: 0;
   font-weight: bold;
@@ -89,7 +89,7 @@
 
 .profile-info{
   color: map-get($colors, granite_gray);
-  font-family: "Noto Sans", sans-serif;
+  // font-family: "Noto Sans", sans-serif;
   font-size: $font-size-base;
   letter-spacing: 0;
 }

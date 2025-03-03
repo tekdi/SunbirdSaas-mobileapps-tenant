@@ -21,7 +21,7 @@
     }
 
     .title {
-      color: #572E91;
+      color: #572e91;
       font-weight: bold;
       margin-top: 2px;
     }
@@ -32,7 +32,6 @@
     }
   }
 }
-
 
 ion-input,
 section {
@@ -65,7 +64,7 @@ ion-datetime {
 }
 
 .important::after {
-  content: '*';
+  content: "*";
   color: red;
   margin-left: 5px;
 }
@@ -75,7 +74,7 @@ ion-datetime {
 }
 
 .footer {
-  background: #F8FAFC;
+  background: #f8fafc;
   border-top: 1px solid #d1d6dd;
   display: flex;
   flex-direction: row;
@@ -87,14 +86,14 @@ ion-datetime {
   padding: 1rem;
 
   a {
-    color: #005A9E;
+    color: #005a9e;
   }
   label {
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
   }
 }
-.date1 ::ng--deep{
-  background-color: #F8FAFC;
+.date1 ::ng--deep {
+  background-color: #f8fafc;
 }
 ion-slides {
   height: 100%;
@@ -107,10 +106,9 @@ ion-slides {
   border: 1px solid #999999 !important;
   border-radius: 22px;
   padding-left: 0.75rem !important;
- 
 }
 
-.btn-info{
+.btn-info {
   padding: 12px;
   text-align: center;
 }
@@ -119,18 +117,15 @@ ion-slides {
   --background: #707070 !important;
 }
 
-ion-button{
+ion-button {
   height: 40px;
-  box-shadow: var(--button-style-shadow) !important;
+  //box-shadow var(--button-style-shadow) !important;
   border-radius: 1rem;
 }
 
-
-.select-text{
-  margin-left: .75rem !important;
+.select-text {
+  margin-left: 0.75rem !important;
 }
-.select-placeholder{
-  margin-left: .75rem !important;
+.select-placeholder {
+  margin-left: 0.75rem !important;
 }
-
-

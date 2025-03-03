@@ -6,7 +6,7 @@
     border-color: transparent;
     color: map-get($colors, grayish_blue);
     background-color: transparent;
-    box-shadow: none;
+    // //box-shadow none;
     opacity: 1;
     margin-top: 3px !important;
     height: 1.4em;
@@ -28,7 +28,7 @@
     margin: 0;
     width: 100vw !important;
     height: auto !important;
-    box-shadow: unset;
+    // //box-shadow unset;
     position: fixed;
     left: 0 !important;
     @include ltr() {
@@ -71,7 +71,7 @@
     margin-top: 3vh;
   }
   .custom-shadow {
-    box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
+    // //box-shadow 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
     margin-top: 35% !important;
   }
 
@@ -81,17 +81,16 @@
     padding: 16px 0;
   }
 
-  ion-button{
+  ion-button {
     --background: #{$blue} !important;
     color: map-get($colors, white);
     --background-hover: #{$blue} !important;
     --background-activated: #{$blue} !important;
   }
 
-  ion-button[fill="outline"]{
+  ion-button[fill="outline"] {
     --background: map-get($colors, white) !important;
     color: #{$blue};
     --border-color: #{$blue};
   }
-
 }
